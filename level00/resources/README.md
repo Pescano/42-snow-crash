@@ -17,4 +17,5 @@ cdiiddwpgswtgt - ROT11 -> nottoohardhere
 ## Access to user flag00 and get the password for user level01
 su flag00 (password : nottoohardhere)
 getflag
+
 -> x24ti5gi3x0ol2eh4esiuxias
