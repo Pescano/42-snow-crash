@@ -6,7 +6,8 @@ ls -la
 ## This file can be execute as flag04 user, in addition is a Perl file with the folowing code
 cat level04.pl
 
--> #!/usr/bin/perl
+```perl
+   #!/usr/bin/perl
    # localhost:4747
    use CGI qw{param};
    print "Content-type: text/html\n\n";
@@ -15,6 +16,7 @@ cat level04.pl
      print `echo $y 2>&1`;
    }
    x(param("x"));
+```
 
 ## To exploit this file we need use this line
 print `echo $y 2>&1`;
