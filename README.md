@@ -17,3 +17,8 @@ For this project, I used VirtualBox in order to create the VM. Here is the confi
 - Network access mode : bridge
 - Port : 4242
 - Hard Drive : 10 Gb
+
+## Authors
+
+- Pablo Escaño Martín [@paescano](https://github.com/Pescano)
+- Pedro Reina Gañan [@pepealkalina](https://github.com/pepealkalina)
